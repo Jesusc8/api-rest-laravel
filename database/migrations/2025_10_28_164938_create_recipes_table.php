@@ -23,7 +23,7 @@ return new class extends Migration
             $table->string('title');
             $table->text('description');
             $table->text('ingredients');
-            $table->text('Instructions');
+            $table->text('instructions');
             $table->string('image')->nullable();
 
 
